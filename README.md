@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Shehryarnadeem
 - 👀 I’m interested in Web development
-- 🌱 I’m currently learning Software engeneering
+- 🌱 I’m currently learning Information Technology
 - 💞️ I’m looking to collaborate on Software sector
-- 📫 How to reach me ...
+- 📫 Contact via whatsapp +92-348-4234318
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
