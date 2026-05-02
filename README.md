@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @Shehryarnadeem
-- 👀 I’m interested in Web development
-- 🌱 I’m currently learning Information Technology
-- 💞️ I’m looking to collaborate on Software sector
-- 📫 Contact via whatsapp +92-348-4234318
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Shehryarnadeem/Shehryarnadeem is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+👋 Hi, I’m @ShehryarNadeem  
+💻 Passionate about Web Development & Digital Solutions  
+🌱 Currently pursuing BSIT and continuously learning new technologies  
+🚀 Interested in projects related to Software Development, Data Analytics & Automation  
+🤝 Open to collaboration in the software and tech industry  
+📫 Reach me on WhatsApp: +92 348 4234318  
+😄 Pronouns: He/Him  
+⚡ Fun fact: I turn ideas into digital reality through code & creativity  
