@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 6</title>
+</head>
+<body>
+    <!-- Q- Make calender which tells days of month -->
+    <h1>Month Days Calendar</h1>
+    <label for="month-input">Enter Month (1-12): </label>
+    <input type="number" id="month-input" placeholder="Enter a month (1-12)">
+    <button id="calculate-button">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        function getDaysInMonth(month) {
+            switch (month) {
+                case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                    return 31;
+                case 4: case 6: case 9: case 11:
+                    return 30;
+                case 2:
+                    return 28;
+            }
+        }
+
+        const monthInput = document.getElementById("month-input");
+        const calculateButton = document.getElementById("calculate-button");
+        const resultText = document.getElementById("result");
+
+        calculateButton.addEventListener("click", function() {
+            const month = parseInt(monthInput.value);
+
+            if (month >= 1 && month <= 12) {
+                const daysInMonth = getDaysInMonth(month);
+                resultText.textContent = `Month ${month} has ${daysInMonth} days.`;
+            } else {
+                resultText.textContent = "Please enter a valid month (1-12).";
+            }
+        });
+    </script>
+</body>
+</html>

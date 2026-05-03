@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shehryar</title>
+</head>
+<head><b><center>Percentage calculator</center></b></head>
+<body>
+<form onsubmit="shery()">
+    <label for="tm">Total marks</label>
+    <input type="number" name="tm" id="stdtm">
+        <br>
+        <br>
+    <label for="om">obtain marks</label>   
+    <input type="number" name="om" id="stdom">
+        <br>
+        <br>
+<button type="submit" onclick="alert1()">calculate</button>
+</form>
+<script>
+function shery() {
+        let stdTotal_Marks= document.querySelector("#stdtm").value;
+        let stdobt_Marks= document.querySelector("#stdom").value;
+        let res = stdobt_Marks / stdTotal_Marks * 100;
+        document.write("You got " + res + "%" )
+}
+function alert1() {
+    alert("hello")
+}
+
+</script>     
+</body>
+</html>
